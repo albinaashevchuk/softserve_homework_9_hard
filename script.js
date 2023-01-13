@@ -1,6 +1,6 @@
 // Train
-const userSeat = prompt("Input your seat in train, please (1-54)");
-const trainCar = Math.floor((userSeat - 1) / 4 + 1); 
+let userSeat = prompt("Input your seat in train, please (1-54)");
+let trainCar = Math.floor((userSeat - 1) / 4 + 1); 
 let seatUpDown = "upper seat";
 let seatSideAside = "not a side seat";
 if (userSeat % 2) {
