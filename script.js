@@ -1,17 +1,17 @@
 // Train
-// const userSeat = prompt("Input your seat in train, please (1-54)");
-// const trainCar = Math.floor((userSeat - 1) / 4 + 1); 
-// let seatUpDown = "upper seat";
-// let seatSideAside = "not a side seat";
-// if (userSeat % 2) {
-//     seatUpDown = "down seat";
-// }
-// if (userSeat > 36) {
-//     trainCar = Math.floor((54 - userSeat) / 2 + 1); 
-//     seatSideAside = "a side seat";
-// }
+const userSeat = prompt("Input your seat in train, please (1-54)");
+const trainCar = Math.floor((userSeat - 1) / 4 + 1); 
+let seatUpDown = "upper seat";
+let seatSideAside = "not a side seat";
+if (userSeat % 2) {
+    seatUpDown = "down seat";
+}
+if (userSeat > 36) {
+    trainCar = Math.floor((54 - userSeat) / 2 + 1); 
+    seatSideAside = "a side seat";
+}
 
-// alert(`You have ${seatUpDown} and ${seatSideAside} in coupe ${trainCar}`);
+alert(`You have ${seatUpDown} and ${seatSideAside} in coupe ${trainCar}`);
 
 // Calc
 
